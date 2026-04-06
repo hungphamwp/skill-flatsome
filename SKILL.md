@@ -92,6 +92,13 @@ Use this skill when converting a static HTML page into a WordPress page running 
 
 If starting a new project, always run this WP-CLI prep before converting HTML:
 
+### MANDATORY: Sync First Protocol
+Before making any changes to an existing page or form, you MUST first fetch the current content from the database using WP-CLI to ensure you are working with the latest version (as the USER may have made manual updates).
+```bash
+# Example for Page ID 12
+wp post get 12 --field=post_content > current_content.txt
+```
+
 ### Step 1 — Create child theme
 ```bash
 THEMES_DIR=$(wp eval "echo get_theme_root();")
