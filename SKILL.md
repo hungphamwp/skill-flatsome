@@ -313,6 +313,7 @@ This skill includes the following reference documents:
 | `references/page-template-patterns.md` | PHP page template patterns and examples |
 | `references/css-migration.md` | CSS migration patterns and design tokens |
 | `references/flatsome-hooks-development.md` | Development hooks and filters quick reference |
+| `references/contact-form-7-setup.md` | **Contact Form 7 Complete Setup** — Tags, CSS styling, horizontal/vertical layouts, and Flatsome integration |
 
 ### Key Documentation Links
 - Official docs: https://docs.uxthemes.com/
